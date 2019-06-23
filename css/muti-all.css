@@ -394,7 +394,7 @@ input[type="submit"] {
   width: 70%; }
 
 .faq-content {
-  margin: 15% auto 50px auto;
+  margin: 18% auto 50px auto;
   width: 80%; }
   .faq-content ol {
     list-style-type: decimal;
@@ -411,6 +411,9 @@ input[type="submit"] {
     font-weight: bold; }
   .faq-content ul.refund {
     text-indent: 30px; }
+  @media (max-width: 768px) {
+    .faq-content {
+      margin: 12.5% auto 50px auto; } }
   @media (max-width: 576px) {
     .faq-content {
       margin: 0% auto 50px auto; } }
@@ -435,7 +438,7 @@ input[type="submit"] {
     list-style-type: disc;
     color: #9b9b9b;
     line-height: 24px; }
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     .teacher img {
       float: none;
       width: 50%;
