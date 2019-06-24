@@ -62,10 +62,10 @@ a {
     background: url(../img/logo_small.png);
     width: 170px;
     text-indent: -170px;
+    display: block;
     overflow: hidden;
     white-space: nowrap;
     height: 36px;
-    display: block;
     margin: 15px; }
     @media (max-width: 576px) {
       .nav h1 a {
@@ -94,7 +94,7 @@ a {
       .nav ul {
         height: auto; }
       .nav h1 a {
-        margin: 15px 200px 15px 15px; }
+        margin: 15px 0px 15px 15px; }
       .nav .showmenu {
         width: 45px;
         display: inline;
@@ -203,6 +203,9 @@ a {
   padding: 10px 30px;
   -webkit-border-radius: 10px;
   border-radius: 10px; }
+
+.banner a:hover {
+  background: #008d6a; }
 
 @media (max-width: 576px) {
   .banner a {
@@ -514,6 +517,8 @@ input[type="submit"] {
       .couse-bottom-banner a {
         float: none;
         margin: 0% 20% 30% 15%; } }
+  .couse-bottom-banner a:hover {
+    background: #008d6a; }
 
 .container-1 {
   position: relative;
@@ -528,6 +533,8 @@ input[type="submit"] {
     margin: 0;
     top: 18px;
     right: 10px;
+    background: transparent; }
+  .container-1 a.icon:hover {
     background: transparent; }
   .container-1 input {
     outline: 0;

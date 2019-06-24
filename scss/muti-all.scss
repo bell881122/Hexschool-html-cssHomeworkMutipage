@@ -44,10 +44,10 @@ a {
         background: url(../img/logo_small.png);
         width: 170px;
         text-indent: -170px;
+        display: block;
         overflow: hidden;
         white-space: nowrap;
         height: 36px;
-        display: block;
         margin: 15px;
 
         @media (max-width: 576px) {
@@ -92,7 +92,7 @@ a {
         }
 
         h1 a {
-            margin: 15px 200px 15px 15px;
+            margin: 15px 0px 15px 15px;
         }
 
         .showmenu {
@@ -254,7 +254,9 @@ a {
     border-radius: 10px;
 }
 
-
+.banner a:hover {
+    background: #008d6a;
+}
 
 @media(max-width: 576px) {
     .banner a {
@@ -553,7 +555,7 @@ input[type="submit"] {
 
     }
 
-    ul.refund{
+    ul.refund {
         text-indent: 30px;
     }
 
@@ -712,6 +714,11 @@ input[type="submit"] {
         }
     }
 
+    a:hover {
+        background: #008d6a;
+
+    }
+
 }
 
 
@@ -731,6 +738,11 @@ input[type="submit"] {
         top: 18px;
         right: 10px;
         background: transparent;
+    }
+
+    a.icon:hover {
+        background: transparent;
+
     }
 
     input {
